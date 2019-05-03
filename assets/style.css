@@ -1,0 +1,15 @@
+#journey-card {
+  max-width: auto;
+  min-height: 60rem;
+}
+#journey-card h1 {
+margin-top:25rem;
+}
+#intro-row {
+  background-image: url("metroid-prime-31226-1920x1080.jpg");
+  background-position: center center;
+  background-size: auto;
+}
+body {
+  background-color: black;
+}
