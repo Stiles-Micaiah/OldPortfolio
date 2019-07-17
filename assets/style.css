@@ -2,39 +2,87 @@
   /*max-width: auto;*/
   min-height: 42rem;
 }
+
 #journey-card h1 {
-margin-top:23rem;
+  margin-top: 23rem;
 }
+
 #intro-row {
   background-image: url("thumb-1920-416319.png");
   background-size: 1920px 1080px;
-background-repeat: no-repeat;
-background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .main-row-body {
   background-color: black;
 }
-.about-cards {
+
+.about-row {
+  background-color: black;
+}
+
+/* .contact-content-row {} */
+
+.about-card {
   margin-top: 36vh;
+  margin-bottom: 5rem;
+}
+
+/* .aligned-card {} */
+
+.aligned-ul {
+  text-align: center;
+  list-style: none;
+  margin-left: 20%;
+  margin-right: 26%
+}
+
+p {
+  text-align: center;
+}
+
+.about-cards {
   margin-bottom: 36vh;
 }
 
 h3 {
   color: #9c27b0c2;
 }
+
 #page-intro {
-  text-shadow: 0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5,0px 0px 20px #c50ac5;
+  text-shadow: 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5, 0px 0px 20px #c50ac5;
   color: #ff0000;
   letter-spacing: rem;
 }
+
+.justify-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-cards {
+  background-color: #ff10ff2c;
+  margin-bottom: 6rem;
+}
+
+.green-anchor {
+  color: #00ff22;
+}
+
 #contact-title-h1 {
-  text-shadow: 0px 0px 20px #26ff00,0px 0px 20px #26ff00,0px 0px 20px #26ff00;
+  text-shadow: 0px 0px 20px #26ff00, 0px 0px 20px #26ff00, 0px 0px 20px #26ff00;
   color: #ffae00;
-margin-top: 4vh;
-margin-bottom: 68vh;
+  margin-top: 4vh;
+  margin-bottom: 4rem;
+  /* 
+  ORIGINAL SIZE
+  margin-bottom: 68vh; 
+  */
 }
 
 /*#ey {
   color: rgb(228, 228, 228);
 }*/
+
 /*yfgffvh*/
