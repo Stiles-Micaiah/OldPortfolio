@@ -17,9 +17,16 @@
 .main-row-body {
   background-color: black;
 }
+/* .body-paragraphs {
+margin-bottom:auto;
+margin-top: auto;
+} */
 
 .about-row {
-  background-color: black;
+  background-image: linear-gradient(179deg, purple, red 56%);
+}
+#about-row {
+  background-image: linear-gradient(red 2%,black 31% ,red 90%);
 }
 
 /* .contact-content-row {} */
@@ -67,6 +74,14 @@ img {
 .images-small>img {
   width: auto;
   height: 25vh;
+  margin: 2px;
+}
+.search-form-nav > input {
+  background: none;
+  background-image: linear-gradient(to top right, rgba(255, 0, 0, 0.428),rgba(0, 0, 0, 0.428));
+}
+.search-form-nav {
+  background-image: none;
 }
 
 .images-small {
@@ -78,7 +93,7 @@ img {
 
 }
 .skills-card {
-  background: linear-gradient(to top left, red, black)
+  background: linear-gradient(180deg, red -7%, black);
 }
 .skills-image {
   /* width: 20vh; */
