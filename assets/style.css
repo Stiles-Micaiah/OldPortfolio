@@ -23,10 +23,13 @@ margin-top: auto;
 } */
 
 .about-row {
-  background-image: linear-gradient(179deg, purple, red 56%);
+  background-image: linear-gradient(180deg, purple 6%, red 47%, black 76%);
 }
 #about-row {
-  background-image: linear-gradient(red 2%,black 31% ,red 90%);
+  background-image: linear-gradient(black 45% ,red 91%);
+}
+.bottom-row {
+  background-image: linear-gradient(179deg, Black 40%, blue 133%);
 }
 
 /* .contact-content-row {} */
@@ -65,7 +68,15 @@ p {
 }
 
 h3 {
-  color: #9c27b0c2;
+  /* color: #9c27b0c2; */
+  color: #00efff;
+}
+
+
+/* bg-primary-custom */
+.alternitive-color {
+  /* color: #9c27b0c2; */
+  color: #73ff00;
 }
 img {
   max-width: 100%;
